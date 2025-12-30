@@ -22,6 +22,7 @@ def init_db():
 
 init_db()
 
+
 @mcp.tool()
 def add_expense(date, amount, category, subcategory="", note=""):
     '''Add a new expense entry to the database.'''
